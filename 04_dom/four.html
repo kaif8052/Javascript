@@ -20,8 +20,32 @@
     //    }
     //    addLanguage("python")
     //    addLanguage("typeScript")
+    // 
 
-       
+    // IN ABOBE FUNCTION WHOLE TREE IS TRAVERSED SO THIS IS NOT OPTIMISE WAY
+
+
+
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(language))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLanguage('goLang')
+
+    // IN ABOVE FUNCTION WE ARE NOT TRAVERSING THE WHOLE TREE SO IT IS A OPTIMISE WAY
+
+
+
+    // EDIT
+
+//    const secondLang = document.querySelector("li:nth-child(2)")
+//    secondLang.innerHTML = "MOjo"
+//    This not good approch
+ 
+  
     
       
 
